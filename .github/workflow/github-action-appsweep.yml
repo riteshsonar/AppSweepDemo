@@ -10,5 +10,5 @@ jobs:
 
       - name: Upload app to appSweep with Gradle
         env:
-          APPSWEEP_API_KEY: ${{secrets.gs_appsweep_6zFDQ96_d4ilOBNzYPjWxboDOTH41qtT9BWZ4esY}}
+          APPSWEEP_API_KEY: ${{secrets.APPSWEEP_API_KEY}}
           run: ./gradlew uploadToAppSweepRelease
