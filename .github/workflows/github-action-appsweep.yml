@@ -1,0 +1,2 @@
+name: AppSweep mobile application security testing
+on: [pull_request_target]
