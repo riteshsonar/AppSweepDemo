@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    println("Hello world")
+                    println("working with AppSweep")
                     Greeting("Android")
                 }
             }
